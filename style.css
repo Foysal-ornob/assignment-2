@@ -284,7 +284,7 @@ body{
                 responsive css for mobile 
                 =================== */
 
-                @media only screen and (max-width:688px) {
+                @media only screen and (max-width:766px) {
                     
                     .online-company-logo{
                       flex-direction: column;
@@ -317,7 +317,7 @@ body{
                 responsive css for tep
                 =================== */
 
-                @media only screen and (min-width:810px) and (max-width:180){
+                @media only screen and (min-width:767px) and (max-width:991){
                     .all-service-item{
                         grid-template-columns: repeat(2,1fr);
                     }
