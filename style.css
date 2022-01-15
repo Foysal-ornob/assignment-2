@@ -1,0 +1,325 @@
+/* =================
+font famile
+==================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&family=Spline+Sans:wght@500&display=swap');
+
+
+/* ==================
+genneral
+================== */
+
+body{ 
+    margin: 0;
+    padding: 0;
+}
+
+                /* ===============
+                header area 
+                ================= */
+                .container{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                .header-top{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .header-top-titel{}
+                .header-top-titel h3{
+                    font-size: 
+                    24px;
+                    font-weight: 700;
+                    font-family: 'Poppins', sans-serif;
+                }
+
+                .menu{}
+                .menu-icon{
+                    display: none;
+                }
+                .menu ul{
+                    display: flex;
+                }
+                .menu ul li{
+                    list-style: none;
+                    margin-right: 20px;
+                }
+                .menu ul li a{
+                    text-decoration: none;
+                    color: #3A3A3A;
+                    font-weight: 700;
+                }
+                .menu ul li a i{}
+
+
+                .header-about{
+                    display: flex;
+                }
+                .heaaer-about-left{
+                    margin-top: 60px;
+                }
+                .heaaer-about-left h1{
+                    font-family: 'Poppins', sans-serif;
+                   
+                }
+            
+                .heaaer-about-left span{
+                    display: flex;
+                    flex-direction: column;
+                  
+                   
+                }
+                .heaaer-about-left p{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                }
+                .heaaer-about-left button{
+                    background-color: #E02C6D;
+                    border: 1px solid #E02C6D ;
+                    border-radius: 20px;
+                    color: #fff;
+                    padding: 10px 15px;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+                .heaaer-about-left button:active{
+                    top: 5px;
+                    left: 5px;
+                    
+                    transform: scale(10px);
+                }
+                .heaaer-about-right{}
+                .heaaer-about-right img{
+                    width: 440px;
+                }
+
+
+
+                /* ====================
+                header area end 
+                =================== */
+
+                /* ==============-=-=-=-=-=-=
+                online company logo start
+                =================-==========-=-= */
+                .insite-container{
+                    width: 80%;
+                    margin: 0 auto;
+                   
+                }
+                .online-company-logo{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 50px;
+                    align-items: center;
+                    
+                }
+                .online-company-logo-item{}
+                .online-company-logo-item img{
+                    width: 100%;
+                }
+
+                  /* ==============-=-=-=-=-=-=
+                online company logo end
+                =================-==========-=-= */
+
+                .service-area{
+                    margin-top: 70px;
+                }
+                .service-title{
+                    text-align: center;
+                }
+                .service-title h2{
+                    font-family: 'Poppins', sans-serif;
+                }
+                .service-item{
+                  
+                    box-shadow: 5px 5px 10px gray;
+                    border-radius: 10px;
+                     padding: 10px 20px;
+                     align-items: center;
+                     margin-right: 5%;
+                    
+                }
+
+                .all-service-item{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    grid-row-gap: 30px;
+                    
+                }
+
+                .service-item-img{}
+                .service-item-img img{
+                    width: 96%;
+                }
+
+                .service-text{}
+                .service-text h2{}
+                .service-text p{
+                    font-size: 24px;
+                }
+                #service-button-p{
+                    font-size: 16px;
+                    font-style: italic;
+                }
+                .service-item-icon{
+                    color: orange;
+                }
+                .service-item-icon span{
+                    color: black;
+                }
+                .service-item-icon i{}
+
+                .see-more{
+                    display: flex;
+                    justify-content: flex-end;
+                    color:  #E02C6D ;
+                    font-size: 16px;
+                    padding-right: 20px;
+                    font-weight: bold;
+                   
+                   
+                }
+
+
+                /* =============
+                service area end 
+                =============== */
+
+                /* =============
+                our team start
+                ================ */
+
+                .our-teams{}
+                .teams-titel{
+                    text-align: center;
+                }
+                .teams-titel h1{}
+
+                .all-team{
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .our-team{
+                 margin-left: 5px;
+                 overflow: hidden;
+                 
+                }
+                .our-team-img{
+                    position: relative;
+                }
+                .our-team-img img{
+                    width: 75%;
+                }
+
+                .our-team-img:hover .team-icon{
+                    left: 0;
+                }
+
+                .team-icon{
+                    background-color: rgba(128, 128, 128, 0.7);
+                    position: absolute;
+                    width: 100%;
+                    left: -100%;
+                    top: 0;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   
+                }
+                .team-icon i{
+                    margin-right: 10px;
+                    color: #fff;
+                    font-size: 20px;
+                }
+
+                .our-team-info{
+                    text-align: center;
+                    
+                    
+                }
+                .our-team-info h2{}
+                .our-team-info p{}
+
+                /* ===============
+                team area end 
+                ================ */
+
+                .footer-area{
+                    text-align: center;
+                    padding: 0;
+                    margin: 100px 0;
+                    background-color: #0A0826;
+                    color: #fff;
+                }
+                .footer-area h2{
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 700;
+                    padding-top: 40px;
+                }
+                .footer-area P{
+                 
+                 
+                }
+                .footer-area h6{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 20px;
+                }
+
+                .footer-icon{
+                    padding-bottom: 40px;
+                }
+                .footer-icon i{
+                    margin-right: 10px;
+                }
+
+
+
+
+                /* ================
+                responsive css for mobile 
+                =================== */
+
+                @media only screen and (max-width:688px) {
+                    
+                    .online-company-logo{
+                      flex-direction: column;
+                    margin-bottom: 10px;
+                    }
+
+                       .all-service-item{
+                          grid-template-columns: repeat(1,1fr);
+                       }
+                       .header-about{
+                           flex-direction: column;
+                       }
+                       .all-team{
+                           flex-direction: column;
+                       }
+                       #footer-container{
+                           width: 100%;
+                           margin: 0;
+                       }
+                       .menu{
+                           display: none;
+                       }
+                       .header-top-titel h1{
+                           text-align: center;
+                       }
+                     
+                }
+
+                  /* ================
+                responsive css for tep
+                =================== */
+
+                @media only screen and (min-width:810px) and (max-width:180){
+                    .all-service-item{
+                        grid-template-columns: repeat(2,1fr);
+                    }
+                }
+                
